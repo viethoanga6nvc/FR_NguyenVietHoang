@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic C Sharp", "Basic C Sharp", "{E29FD358-19FA-4659-99D1-34FD1E85C3D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic OOP", "Basic OOP", "{63642F24-467E-4F18-BCA4-B3967AC151C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Advanced C Sharp", "Advanced C Sharp", "{BA8E44CF-E030-476A-BBF2-05FAB7C2F65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World", "Hello World\Hello World.csproj", "{5AF2031B-465B-4F39-AB76-098F4BFED5CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AF2031B-465B-4F39-AB76-098F4BFED5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF2031B-465B-4F39-AB76-098F4BFED5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF2031B-465B-4F39-AB76-098F4BFED5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF2031B-465B-4F39-AB76-098F4BFED5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5AF2031B-465B-4F39-AB76-098F4BFED5CD} = {E29FD358-19FA-4659-99D1-34FD1E85C3D7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {413CA76F-59B9-43C4-945B-582AD7E3D151}
+	EndGlobalSection
+EndGlobal
