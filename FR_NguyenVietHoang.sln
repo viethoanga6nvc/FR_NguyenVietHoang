@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hello World", "Hello World\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeDate", "ConsoleApp1\TimeDate.csproj", "{BFE8A225-7B51-44FC-8E44-9507006A0BEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{BB439BC6-990C-4A1D-9460-DEFF327E0244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{BB439BC6-990C-4A1D-9460-DEFF327E0244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{2E2101F5-4D68-491A-B19F-58CD405D2BFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BB439BC6-990C-4A1D-9460-DEFF327E0244}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB439BC6-990C-4A1D-9460-DEFF327E0244}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB439BC6-990C-4A1D-9460-DEFF327E0244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2101F5-4D68-491A-B19F-58CD405D2BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2101F5-4D68-491A-B19F-58CD405D2BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2101F5-4D68-491A-B19F-58CD405D2BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2101F5-4D68-491A-B19F-58CD405D2BFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{5AF2031B-465B-4F39-AB76-098F4BFED5CD} = {E29FD358-19FA-4659-99D1-34FD1E85C3D7}
 		{BFE8A225-7B51-44FC-8E44-9507006A0BEA} = {E29FD358-19FA-4659-99D1-34FD1E85C3D7}
 		{BB439BC6-990C-4A1D-9460-DEFF327E0244} = {63642F24-467E-4F18-BCA4-B3967AC151C3}
+		{2E2101F5-4D68-491A-B19F-58CD405D2BFE} = {63642F24-467E-4F18-BCA4-B3967AC151C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {413CA76F-59B9-43C4-945B-582AD7E3D151}
