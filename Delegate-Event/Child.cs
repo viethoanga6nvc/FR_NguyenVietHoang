@@ -38,4 +38,3 @@ namespace Delegate_Event
         }
     }
 }
-s
