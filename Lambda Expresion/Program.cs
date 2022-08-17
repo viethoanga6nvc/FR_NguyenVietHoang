@@ -24,10 +24,10 @@ namespace Lambda_Expresion
         {
             List<Employee> employees = new List<Employee>()
             {
-                new Employee(8, "Hoang",new DateTime(2000, 10, 15)),
+                new Employee(8, "Hoang", new DateTime(2000, 10, 15)),
                 new Employee(11, "Giang", new DateTime(1992, 4, 6)),
                 new Employee(66, "Ha", new DateTime(1999, 5, 31)),
-                new Employee(5, "Chinh", new DateTime(1992, 8, 9)),
+                new Employee(20, "Chinh", new DateTime(1992, 8, 9)),
                 new Employee(16, "Chien", new DateTime(1991, 6, 7))
             };
             return employees;
@@ -44,7 +44,7 @@ namespace Lambda_Expresion
             var query = employees.Where(e => e.ID > 10);
             Console.WriteLine("Danh sach nhan vien co ID > 10:");
             Console.WriteLine(Header());
-            foreach(Employee employee in query.ToList())
+            foreach(Employee employee in query)
             {
                 employee.Output();
             }
@@ -65,7 +65,7 @@ namespace Lambda_Expresion
             var query = employees.Where(e => e.ID > 10 && e.Name.StartsWith('C'));
             Console.WriteLine("Danh sach nhan vien co ID > 10 va co ten bat dau bang C:");
             Console.WriteLine(Header());
-            foreach (Employee employee in query.ToList())
+            foreach (Employee employee in query)
             {
                 employee.Output();
             }
